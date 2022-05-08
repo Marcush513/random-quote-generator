@@ -1,42 +1,53 @@
 body {
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding-right: 30em;
+  position: flex;
+  align-items:center;
+  justify-content:center;
+  
 }
 .display {
-  width: 100%;
-  height: 50%;
-  padding-top: 20px;
-  padding-right: 10em;
+padding: 50px;
+text-align: left;
+  
 }
 .display-body {
-  padding: 50px;
+  position:flex;
 }
 
-.button-container {
-  justify-content: right;
-  align-items: right;
-  padding-left: 50em;
+.btn-group.btn-group-lg {
+  left: 300px;
+  position: fixed;
+  padding: 10px;
+  bottom: 70px;
+
 }
 
-.h1 {
+ .h1 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 4em;
+  font-size: 8em;
+  text-align: left;
 }
 
 .h3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 2em;
+  font-size: 4em;
 }
 
 cite {
-  padding: 2em;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2em;
+}
+
+#card {
+  position: absolute;
+  right: 25px;
+  top: 300px;
+  
+}
+
+.h7 {
+  position: static;
+  padding-left: 50px;
 }

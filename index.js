@@ -1,4 +1,4 @@
-const url = "https://api.quotable.io/random";
+const url = "https://api.quotable.io/random?maxLength=50";
 let quote = document.getElementById("Welcome");
 const cite = document.querySelector("blockquote cite");
 // function to grab quote from API and creates quote in DOM
